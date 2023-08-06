@@ -12,7 +12,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 50px 220px;
+    padding: 50px 150px;
 }
 
 .nav-title{
@@ -54,7 +54,7 @@ nav ul li {
 .banner{
     display: flex;
     align-items: center;
-    margin: 50px 220px;
+    margin: 50px 150px;
 }
 .banner h3{
     color:#474747;
@@ -73,6 +73,210 @@ nav ul li {
     word-spacing: 5px;
     margin-bottom: 30px;
 }
+
+
+/* About Section */
+.about{
+    margin: 80px 150px;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 130px;
+}
+.about h1{
+    color: #181818;
+    font-size: 35px;
+}
+.about p{
+    color: #757575;
+    font-size: 14px;
+    margin: 10px;
+}
+.about ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about li{
+    list-style-type: none;
+    padding: 20px 10px;
+    color: #474747;
+    font-size: 16px;
+    font-weight: bold;
+}
+.about span{
+    color: #757575;
+    font-size: 14px;
+}
+
+.what_i_do{
+    margin: 40px 150px;
+    text-align: center;
+}
+.what_i_do h1{
+    color: #181818;
+    font-size: 35px;
+}
+.what_i_do p{
+    color: #757575;
+    font-size: 14px;
+    padding: 20px 100px;
+}
+
+.work{
+    margin: 40px 150px;
+    display: flex;
+    
+    
+    
+}
+.my_work1 {
+    width: 450px;
+    height: 300px;
+    margin-left: 20px;
+    padding: 40px 30px;
+    align-items: center;
+    box-shadow: 5px 5px 42px -22px #757575;
+    border-radius: 5px;
+   
+    
+}
+.my_work1 h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #181818;
+    font-size: 20px;
+    font-weight: 800;
+   
+
+}
+.my_work1 p{
+    color: #757575;
+    font-size: 16px;
+    line-height: 25px;
+    word-spacing: 7px;
+}
+article h1{
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
+    margin: 130px 0px;
+    font-weight: bold;
+}
+.summary{
+    margin: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.education {
+    width: 45%;
+   
+}
+.education-summary {
+    border-bottom: 2px solid #D1D1D1;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    padding: 5% 0%;
+}
+.education-summary h1{
+    font-size: 30px;
+    color: #474747;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.education-summary h2{
+    font-size: 20px;
+    color: #474747;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.education-summary h4{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.education-summary p{
+    font-size: 15px;
+    color: #757575;
+    font-weight: 400;
+    word-spacing: 10px;
+}
+.download-btn button{
+    background-color: #FD6E0A;
+    padding: 20px 35px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 0px;
+    margin-left: 50%;
+    margin-bottom: 50px;  
+    margin-top: 50px;  
+}
+.footer{
+    background-color: #FFF8F3;
+    display: flex;
+    
+}
+
+.social{
+    margin-left:150px;
+    width: 50%;
+    padding-bottom: 120px;
+}
+.social h1{
+    color: #181818;
+    font-weight: 800;
+    font-size: 35px;
+    padding-top: 120px;
+}
+.social p{
+    color: #474747;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+.social img {
+    margin-right: 15px;
+}
+.contact-form {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.contact-form h1{
+    color: #181818;
+    font-weight: 800;
+    font-size: 35px;
+}
+.contact-form form{
+    margin-top: 20px;
+}
+.contact-form form input{
+    margin:10px 0px;
+    width: 300px;
+    padding: 20px;
+    border: none;
+}
+.contact-form form textarea{
+    margin:10px 0px;
+    width: 300px;
+    padding: 20px;
+    border: none;
+}
+.contact-form form ::placeholder{
+    color: #757575;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
 
 
 
